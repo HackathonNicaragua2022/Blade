@@ -876,7 +876,7 @@ a:hover {
     padding: 12px 12px 12px 30px;
     border-radius: 0px 20px 20px 0px;
     color: #646464;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.36;
@@ -1072,10 +1072,6 @@ a:hover {
     max-height: 90px;
 }
 
-.game-card:hover{
-    transform: scale(0.9);
-}
-
 
 
 .swiper-slide-thumb-active img {
@@ -1142,22 +1138,6 @@ a:hover {
     font-weight: normal;
     line-height: 25px;
     color: #353535;
-}
-
-
-.map-responsive{
-    overflow: hidden;
-    padding-bottom: 400px;
-    position: relative;
-    height: 0;
-}
-
-.map-responsive iframe{
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
 }
 
 

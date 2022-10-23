@@ -38,7 +38,7 @@
 
 <div class="uk-width-1-3@s det">
     <div class="game-profile-card">
-        <div class="game-profile-card__media"><img src="img/06.jpg" alt="no se pudo cargar la imagen"></div>
+        <div class="game-profile-card__media"><img src="img/06.jpg" alt="No se pudo cargar la imagen"></div>
         <div class="game-profile-card__intro"><span>Restaurante La Cabaña es un establecimiento ubicado en la ciudad de León que cuenta con una variada oferta gastronómica.</span></div>
 
         <div class="game-card__rating py-3">
@@ -77,7 +77,7 @@
 
     <div class="card-client my-3">
         <div class="user-picture">
-            <img class="img-fluid rounded-3" src="img/03.jpg" alt="">
+            <img class="img-fluid rounded-3" src="img/03.jpg" alt="No se pudo cargar la imagen">
         </div>
         <p class="name-client">Norma Montoya
             <span>Propietario/a
@@ -93,7 +93,6 @@
 @section('content')
 
 <!--INICIO DE CONTENIDO PRINCIPAL-->
-<br>
                 <div class="uk-width-1-1"> 
                     <h1 class="card-title text-center titulo">PRODUCTOS</h1>
                     <p class="text-center">Seleccione uno de los productos a continuación para acceder a todos sus detalles:</p>
@@ -111,7 +110,7 @@
                                                 <div class="game-card__genre">Ensalada de espina...</div>
 
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button class="btn btn-danger">Detalles</button></a>
+                                                    <a href="/detallesdelproducto"><button class="btn btn-danger">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 100</span></div>
                                                 </div>
                                             </div>
@@ -128,7 +127,7 @@
                                                 <div class="game-card__genre">Sandwich vegetari...</div>
 
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button class="btn btn-danger">Detalles</button></a>
+                                                    <a href="/detallesdelproducto"><button class="btn btn-danger">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 80</span></div>
                                                 </div>
                                             </div>
@@ -144,7 +143,7 @@
                                                 <div class="game-card__genre">Crepas de queso...</div>
 
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button class="btn btn-danger">Detalles</button></a>
+                                                    <a href="/detallesdelproducto"><button class="btn btn-danger">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 120</span></div>
                                                 </div>
                                             </div>
@@ -160,7 +159,7 @@
                                                 <div class="game-card__genre">Comida vegana de...</div>
 
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button class="btn btn-danger">Detalles</button></a>
+                                                    <a href="/detallesdelproducto"><button class="btn btn-danger">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 150</span></div>
                                                 </div>
                                             </div>
@@ -176,7 +175,7 @@
                                                 <div class="game-card__genre">Burritos en salsa BBQ</div>
 
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button class="btn btn-danger">Detalles</button></a>
+                                                    <a href="/detallesdelproducto"><button class="btn btn-danger">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 100</span></div>
                                                 </div>
                                             </div>

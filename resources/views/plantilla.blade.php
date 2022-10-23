@@ -85,7 +85,7 @@
     <!-- Loader end-->
 
     <div class="page-wrapper">
-    <header class="page-header">
+    <header class="page-header" id="inicio">
         <div class="page-header__inner">
             <div class="page-header__sidebar">
                 <div class="page-header__menu-btn"><button class="menu-btn bi-menu-button-wide-fill is-active"></button></div>
@@ -115,15 +115,15 @@
         <aside class="sidebar is-show" id="sidebar">
             <div class="sidebar-box">
                 <ul class="uk-nav">
-                    <li><a href="#page-header"><i class="bi bi-house-fill"></i></i><span class="px-2">Inicio</span></a></li>
+                    <li><a href="<?php echo url('/').'#encab' ?>"><i class="bi bi-house-fill"></i></i><span class="px-2">Inicio</span></a></li>
 
-                    <li><a href="#"><i class="bi bi-info-circle-fill"></i><span class="px-2">Sobre Nosotros</span></a></li>
+                    <li><a href="<?php echo url('/').'#nosotros' ?>"><i class="bi bi-info-circle-fill"></i><span class="px-2">Sobre Nosotros</span></a></li>
                     
-                    <li><a href="05_favourites.html"><i class="bi bi-building"></i><span class="px-2">Negocios</span class="px-2"></a></li>
+                    <li><a href="<?php echo url('/').'#negocios' ?>"><i class="bi bi-building"></i><span class="px-2">Negocios</span class="px-2"></a></li>
 
-                    <li><a href="06_chats.html"><i class="bi bi-briefcase-fill"></i><span class="px-2">Servicios</span></a></li>
+                    <li><a href="<?php echo url('/').'#servicios' ?>"><i class="bi bi-briefcase-fill"></i><span class="px-2">Servicios</span></a></li>
 
-                    <li><a href="#contacto"><i class="bi bi-envelope-check-fill"></i><span class="px-2">Contacto</span></a></li>
+                    <li><a href="<?php echo url('/').'#contacto' ?>"><i class="bi bi-envelope-check-fill"></i><span class="px-2">Contacto</span></a></li>
                 </ul>
             </div>
         </aside>
@@ -144,7 +144,7 @@
             
             
 <!-- FOOTER -->           
-        <section>
+        <section id="contacto">
                 <div class="container">
                 <footer class="border-top py-2">
                 

@@ -58,10 +58,10 @@
                       <div class="game-card">
                           <div class="game-card__box">
                               <div class="game-card__media"><img src="img/Categorías/artesanías_nicaragua.jpg" alt="Solitary Crusade"/></div>
-                              <div class="game-card__info"><p class="game-card__title"> Artesanías</p>
+                              <div class="game-card__info"><p class="game-card__title">Artesanías</p>
                                   <div class="game-card__genre">Madera, barro, bambú, etc.</div>
                                   <div class="game-card__rating-and-price">
-                                    <div class="game-card__price"><a href="{{route}}">Ingresar</a></div>
+                                    <div class="game-card__price"><a href="/categorias">Ingresar</a></div>
                                 </div>
                               </div>
                           </div>
@@ -75,7 +75,7 @@
                               <div class="game-card__info"><p class="game-card__title"> Cuero / Calzado</p>
                                   <div class="game-card__genre">Zapatos, fajas, billeteras, etc.</div>
                                   <div class="game-card__rating-and-price">
-                                    <div class="game-card__price"><a href="LisCategorías.html">Ingresar</a></div>
+                                    <div class="game-card__price"><a href="/categorias">Ingresar</a></div>
                                 </div>
                               </div>
                           </div>
@@ -89,7 +89,7 @@
                               <div class="game-card__info"><p class="game-card__title">Gastronomía</p>
                                   <div class="game-card__genre">Comidas, bebidas...</div>
                                   <div class="game-card__rating-and-price">
-                                      <div class="game-card__price"><a href="LisCategorías.html">Ingresar</a></div>
+                                      <div class="game-card__price"><a href="/categorias">Ingresar</a></div>
                                   </div>
                               </div>
                           </div>
@@ -103,7 +103,7 @@
                               <div class="game-card__info"><p class="game-card__title">Hotelería</p>
                                   <div class="game-card__genre">Hoteles, hostales, etc.</div>
                                   <div class="game-card__rating-and-price">
-                                    <div class="game-card__price"><a href="LisCategorías.html">Ingresar</a></div>
+                                    <div class="game-card__price"><a href="/categorias">Ingresar</a></div>
                                 </div>
                                   
                               </div>
@@ -118,7 +118,7 @@
                               <div class="game-card__info"><p class="game-card__title">Textil / Vestuario</p>
                                   <div class="game-card__genre">Ropa, telas, etc.</div>
                                   <div class="game-card__rating-and-price">
-                                    <div class="game-card__price"><a href="LisCategorías.html">Ingresar</a></div>
+                                    <div class="game-card__price"><a href="/categorias">Ingresar</a></div>
                                 </div>
                               </div>
                           </div>
@@ -133,7 +133,7 @@
                               <div class="game-card__info"><p class="game-card__title">Turismo</p>
                                   <div class="game-card__genre">Canopy, sanboarding, etc.</div>
                                   <div class="game-card__rating-and-price">
-                                    <div class="game-card__price"><a href="LisCategorías.html">Ingresar</a></div>
+                                    <div class="game-card__price"><a href="/categorias">Ingresar</a></div>
                                 </div>
                               </div>
                           </div>

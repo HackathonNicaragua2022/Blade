@@ -9,111 +9,6 @@
          <img src="img/inicio/multi_emprende_nicaragua.jpg" alt="No se pudo cargar la imagen">     
         </div>
       </div>
-<!--TARJETAS-->
- <!--
-
- <div class="uk-width-1-1">     
-    <h1 class="titulo text-center py-2">Negocios Destacados</h1> 
-      <hr>
-
-      <div class="js-popular">
-          <div class="swiper">
-              <div class="swiper-wrapper">
-
-                  <div class="swiper-slide">
-                      <div class="game-card">
-                          <div class="game-card__box">
-                              <div class="game-card__media"><a href="10_game-profile.html"><img src="img/Categorías/artesanías_nicaragua.jpg" alt="Solitary Crusade" /></a></div>
-                              <div class="game-card__info"><a class="game-card__title" href="10_game-profile.html"> Artesanías</a>
-                                  <div class="game-card__genre">Madera, barro, bambú, etc.</div>
-                                  <div class="game-card__rating-and-price">
-                                      <div class="game-card__price"><span>Toca para Ingresar </span></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="swiper-slide">
-                      <div class="game-card">
-                          <div class="game-card__box">
-                              <div class="game-card__media"><a href="10_game-profile.html"><img src="img/Categorías/cuero_calzado_nicaragua.jpg" alt="Immortal Tombs" /></a></div>
-                              <div class="game-card__info"><a class="game-card__title" href="10_game-profile.html"> Cuero / Calzado</a>
-                                  <div class="game-card__genre">Zapatos, fajas, billeteras, etc.</div>
-                                  <div class="game-card__rating-and-price">
-                                      <div class="game-card__price"><span>Toca para Ingresar </span></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="swiper-slide">
-                      <div class="game-card">
-                          <div class="game-card__box">
-                              <div class="game-card__media"><a href="10_game-profile.html"><img src="img/Categorías/gastronomía_nicaragua.jpg" alt="Kill of Democracy" /></a></div>
-                              <div class="game-card__info"><a class="game-card__title" href="10_game-profile.html">Gastronomía</a>
-                                  <div class="game-card__genre">Comidas, bebidas...</div>
-                                  <div class="game-card__rating-and-price">
-                                      <div class="game-card__price"><span>Toca para Ingresar </span></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="swiper-slide">
-                      <div class="game-card">
-                          <div class="game-card__box">
-                              <div class="game-card__media"><a href="10_game-profile.html"><img src="img/Categorías/hoteles_nicaragua.jpg" alt="Kill of Democracy" /></a></div>
-                              <div class="game-card__info"><a class="game-card__title" href="10_game-profile.html">Hotelería</a>
-                                  <div class="game-card__genre">Hoteles, hostales, etc.</div>
-                                  <div class="game-card__rating-and-price">
-                                      <div class="game-card__price"><span>Toca para Ingresar </span></div>
-                                  </div>
-                                  
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="swiper-slide">
-                      <div class="game-card">
-                          <div class="game-card__box">
-                              <div class="game-card__media"><a href="10_game-profile.html"><img src="img/Categorías/ropa_textiles_vestuario_nicaragua.jpg" alt="Kill of Democracy" /></a></div>
-                              <div class="game-card__info"><a class="game-card__title" href="10_game-profile.html">Textil / Vestuario</a>
-                                  <div class="game-card__genre">Ropa, telas, etc.</div>
-                                  <div class="game-card__rating-and-price">
-                                      <div class="game-card__price"><span>Toca para Ingresar </span></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  
-                  <div class="swiper-slide">
-                      <div class="game-card">
-                          <div class="game-card__box">
-                              <div class="game-card__media"><a href="10_game-profile.html"><img src="img/Categorías/turismo_nicaragua..jpg" alt="Kill of Democracy" /></a></div>
-                              <div class="game-card__info"><a class="game-card__title" href="10_game-profile.html">Turismo</a>
-                                  <div class="game-card__genre">Canopy, sanboarding, etc.</div>
-                                  <div class="game-card__rating-and-price">
-                                      <div class="game-card__price"><span>Toca para Ingresar </span></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-pagination"></div>
-          </div>
-      </div>
-  </div>
- -->
-
 
   <section id="Listado">
      <div class="container"> 
@@ -124,7 +19,7 @@
         <div class="card mb-12 b5">
             <div class="row g-0">
                 <div class="card-image col-md-3">
-                    <img class="img-fluid" src="img/negocios/1.jpg" alt="">
+                    <img class="img-fluid" src="img/negocios/1.jpg" alt="No se pudo cargar la imagen">
                 </div>
             
             <div class="col-md-7">
@@ -144,7 +39,7 @@
                         <a href="#"><i class="bi bi-facebook"></i></a>
                         <a href="#"><i class="bi bi-whatsapp"></i></a>
                         <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="detallesNegocio.html"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+                        <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +58,7 @@
     <div class="card mb-12 b5">
       <div class="row g-0">
           <div class="card-image col-md-3">
-              <img class="img-fluid"  src="img/negocios/2.jpg" alt="">
+              <img class="img-fluid"  src="img/negocios/2.jpg" alt="No se pudo cargar la imagen">
           </div>
       
       <div class="col-md-7">
@@ -183,7 +78,7 @@
                   <a href="#"><i class="bi bi-facebook"></i></a>
                   <a href="#"><i class="bi bi-whatsapp"></i></a>
                   <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="detallesNegocio.html"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+                  <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
               </div>
           </div>
       </div>
@@ -222,7 +117,7 @@
                 <a href="#"><i class="bi bi-facebook"></i></a>
                 <a href="#"><i class="bi bi-whatsapp"></i></a>
                 <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="detallesNegocio.html"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+                <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
             </div>
         </div>
     </div>
@@ -260,7 +155,7 @@
             <a href="#"><i class="bi bi-facebook"></i></a>
             <a href="#"><i class="bi bi-whatsapp"></i></a>
             <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="detallesNegocio.html"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+            <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
         </div>
     </div>
 </div>

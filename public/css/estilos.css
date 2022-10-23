@@ -333,3 +333,13 @@ path{
   opacity: 1;
   transform: translate(-50%, -130%);
 }
+
+.btn-danger {
+  background-color: #6C57EB;
+  border:none;
+  box-shadow: none;
+}
+
+.btn-danger:hover{
+  background-color:#50429E ;
+}
