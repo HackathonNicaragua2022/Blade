@@ -1,0 +1,336 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.claro{ 
+  background-color: #ffffff; 
+}
+
+#encab img{
+  padding: 5px 5px 5px 5px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+
+.titulo{
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  color: white;
+  font-size: 30px;
+  border-radius: 20px 0 20px ;
+  padding: 4px 4px 4px 4px ;
+}
+
+.sobre{
+  border-radius: 20px 0 20px ;
+}
+
+/*CONTENIDO DE LAS TARJETAS DE LA VISTA DE NEGOCIOS*/
+.card{
+  box-shadow:  3px 4px 3px #707070;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.card-body{
+  line-height: 24px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nota{
+  block-size: 35px;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  color: white;
+  border-radius: 8px;
+  padding: 4px;
+  width: 100%;
+}
+
+
+.card-icons i{
+  color: #fff;
+  padding: 5px;
+  margin-inline-end: 5px;
+  display: inline;
+  font-size: 15px;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  border-radius: 30%;
+}
+
+.card-icons i:hover{
+  border-radius: 30%;
+  background: linear-gradient(to right, #0088ff, #001aff);
+}
+
+.linea{
+  border: 0.1px solid;
+  margin-bottom: 4px;
+}
+
+
+/*=============ESTILOS DEL FOOTER=======================*/
+
+footer {
+  margin-top: 100px;
+  padding: 15px;
+	width:100%;
+  border-radius: 10px;
+  background: #e7e5e5
+}
+
+
+.copy{
+  height: 3rem;
+  background-color: #707070;
+  border-radius: 8px;
+  color: #fff;
+}
+
+
+/* From uiverse.io by @mrhyddenn */
+
+
+.etiqueta p {
+  position: absolute;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  top: -10px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.etiqueta p::before {
+  content: 'Premium';
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  transform: rotate(-45deg) translateY(-20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+}
+
+.etiqueta p::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  bottom: 0;
+  left: 0;
+  height: 10px;
+  z-index: -1;
+  box-shadow: 140px -140px #cc3f47;
+  background-image: linear-gradient(45deg, #FF512F 0%, #7d19f0  51%, #FF512F  100%);
+}
+
+
+
+/* From uiverse.io by @abrahamcalsin */
+
+.etiquet-price {
+  position: relative;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  margin-left: .5rem;
+  margin-right: -15px;
+  padding: .2rem 2.2rem;
+  border-radius: 20px 0 0 20px;
+}
+
+.etiquet-price p {
+  margin: 0;
+  display: flex;
+  font-weight: 550;
+  color: #fff;
+  padding: 4px;
+}
+
+
+.etiquet-price div {
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #7a3300;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+  z-index: 6;
+}
+
+
+
+
+/* From uiverse.io by @abrahamcalsin */
+.price {
+  position: relative;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  margin: .5rem -.8rem 1rem 3rem;
+  padding: .2rem 1.2rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.price p {
+  color: #fff;
+  margin: 0;
+  padding: 7px;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.price p:before {
+  content: "C$";
+  margin-right: 6px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.price div {
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #7a3300;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+  z-index: 6;
+}
+
+.benefits-list {
+  margin-top: 16px;
+}
+
+.benefits-list ul {
+  padding: 0;
+  font-size: 14px;
+}
+
+.benefits-list ul li {
+  color: #4d4d4d;
+  list-style: none;
+  margin-bottom: .2rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.benefits-list ul li svg {
+  width: .9rem;
+  fill: currentColor;
+}
+
+.benefits-list ul li span {
+  font-weight: 300;
+}
+
+path{
+  fill: currentColor !important;
+}
+
+/* From uiverse.io by @abrahamcalsin */
+.card-client {
+  padding: 25px 20px 25px 20px;
+  background: #fff;;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.name-client {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-client span {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+.social-media a {
+  position: relative;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+/*-- Tooltip Social Media --*/
+.tooltip-social {
+  color: #fff;
+  background: #202020;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -90%);
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.tooltip-social:after {
+  content: " ";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  border: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: transparent;
+  transform: translate(-50%, 100%);
+}
+
+.social-media a .tooltip-social:after {
+  border-top-color: #0d071f;
+}
+
+.social-media a:hover .tooltip-social {
+  opacity: 1;
+  transform: translate(-50%, -130%);
+}
