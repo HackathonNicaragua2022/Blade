@@ -1887,3 +1887,8 @@ html body.dark-theme .game-profile-card__intro {
         opacity: 0;
     }
 }
+
+.imagen-slider{
+    max-height: 640px;
+    object-fit: cover;
+}
