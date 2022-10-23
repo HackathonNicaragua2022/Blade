@@ -1088,14 +1088,11 @@ a:hover {
     position: relative;
     padding: 15px;
     border-radius: 8px;
-    background: #fff; 
-    --max-height: 540px;
-    max-height: var(--max-height);
+    background: #fff;
     align-items: center;
 }
 
 .det {
-    background-color: #0DA800;
     max-height: 540px;
     overflow-y: scroll;
 }
@@ -1304,7 +1301,8 @@ body.dark-theme .game-card__rating {
 
 body.dark-theme .gallery,
 body.dark-theme .game-profile-card,
-body.dark-theme .game-profile-price {
+body.dark-theme .game-profile-price, 
+body.dark-theme .card-client{
     background: #0C1826;
     color: #A1A1A1;
 }

@@ -11,4 +11,9 @@ class InicioController extends Controller
         /*Mostrar la vista de inicio*/
         return view('inicio');
     }
+
+    public function index()
+    {
+        return view('listCategorías', compact('listCategorías'));
+    }
 }

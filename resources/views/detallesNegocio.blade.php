@@ -4,7 +4,9 @@
 @section('laterales')
 
 <div class="uk-width-2-3@s gal-cont">
-
+    @section('nombre')
+    Restaurante La Cabaña
+    @endsection
     <div class="gallery rounded-3">
         <div class="js-gallery-big gallery-big">
             <div class="swiper">
@@ -107,7 +109,7 @@
 @section('content')
 
 <!--INICIO DE CONTENIDO PRINCIPAL-->
-<hr class"mt-5">
+    <hr class="mt-5">
                 <div class="uk-width-1-1"> 
                     <h1 class="card-title text-center titulo">PRODUCTOS</h1>
                     <p class="text-center">Seleccione uno de los productos a continuación para acceder a todos sus detalles:</p>
@@ -205,11 +207,12 @@
                     </div>
                   </div>
 
-                <hr class="mt-5">
+                <br>
 
-                <div class="map-responsive rounded-3 mt-5">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1948.1180380016028!2d-86.88317400018902!3d12.433985219156943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f711f8021acb71b%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1664659919605!5m2!1ses-419!2sni" width="645" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3896.231176340479!2d-86.880855!3d12.434312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1666499953605!5m2!1ses-419!2sni" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                
 
 <!--FIN CONTENIDO PRINCIPAL-->
 

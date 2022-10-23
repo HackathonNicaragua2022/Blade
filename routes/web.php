@@ -16,3 +16,14 @@ Route::get('/', function () {
     return view('inicio');
 });
 
+Route::get('categorias', function () {
+    return view('listCategorias');
+});
+
+Route::get('detallesdelnegocio', function () {
+    return view('detallesNegocio');
+});
+
+Route::get('detallesdelproducto', function () {
+    return view('detallesProducto');
+});

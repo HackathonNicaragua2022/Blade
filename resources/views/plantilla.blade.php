@@ -128,6 +128,9 @@
         
         <main class="page-main">
         <div class="container">
+            <h3 class="uk-text-lead">
+                @yield('nombre')
+            </h3>
             <div class="uk-grid uk-grid-small Negocio" data-uk-grid>
                 @yield('laterales')
             </div>
