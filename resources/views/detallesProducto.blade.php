@@ -34,7 +34,7 @@
                         <div></div>
                     </div>
                 </div>
-        </div> 
+        </div>
 
         <div class="game-profile-card">
             <div class="game-profile-card__media"><img src="" alt="no se pudo cargar la imagen"></div>
@@ -47,7 +47,7 @@
                 <svg class="bi" width="15" height="15"><use xlink:href="#estrellas"/></svg>
                 <svg class="bi" width="15" height="15"><use xlink:href="#estrellas"/></svg>
             </div>
-            
+
           <div class="text-muted">
             <a href="#"><i class="bi bi-geo-alt-fill"></i>
             </a>De la catedral, dos cuadras al norte, León
@@ -83,4 +83,4 @@
 
 <!--FIN CONTENIDO PRINCIPAL-->
 
-@endsection 
+@endsection

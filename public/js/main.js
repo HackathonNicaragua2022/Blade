@@ -34,13 +34,14 @@ jQuery(document).ready(function ($) {
 
     mediaHeader.addListener(handleHeader);
     handleHeader(mediaHeader);
-    const recommendSlider = new Swiper('.js-recommend .swiper', {
+    const recommendSlider = new Swiper('swiper-full', {
         slidesPerView: 1,
-        spaceBetween: 40,
+        spaceBetween: 0,
         loop: true,
         watchOverflow: true,
         observeParents: true,
         observeSlideChildren: true,
+        centeredSlides: true,
         observer: true,
         speed: 800,
         autoplay: {
@@ -57,9 +58,9 @@ jQuery(document).ready(function ($) {
             clickable: true
         }
     });
-    const trendingSlider = new Swiper('.js-trending .swiper', {
+    const trendingSlider = new Swiper('.swiper-thumbs', {
         slidesPerView: 1,
-        spaceBetween: 40,
+        spaceBetween: 10,
         loop: true,
         watchOverflow: true,
         observeParents: true,
