@@ -22,7 +22,7 @@ body {
 
 
 .titulo{
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #50429E, #6C57EB);
   color: white;
   font-size: 30px;
   border-radius: 20px 0 20px ;
@@ -58,7 +58,7 @@ body {
 
 .nota{
   block-size: 35px;
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #50429E, #6C57EB);
   color: white;
   border-radius: 8px;
   padding: 4px;
@@ -72,7 +72,7 @@ body {
   margin-inline-end: 5px;
   display: inline;
   font-size: 15px;
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #50429E, #6C57EB);
   border-radius: 30%;
 }
 
@@ -126,7 +126,7 @@ footer {
   position: absolute;
   width: 150%;
   height: 40px;
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #50429E, #6C57EB);
   transform: rotate(-45deg) translateY(-20px);
   display: flex;
   align-items: center;
@@ -156,7 +156,7 @@ footer {
 
 .etiquet-price {
   position: relative;
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #50429E, #6C57EB);
   margin-left: .5rem;
   margin-right: -15px;
   padding: .2rem 2.2rem;
@@ -190,7 +190,7 @@ footer {
 /* From uiverse.io by @abrahamcalsin */
 .price {
   position: relative;
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #50429E, #6C57EB);
   margin: .5rem -.8rem 1rem 3rem;
   padding: .2rem 1.2rem;
   border-radius: 5px 0 0 5px;
@@ -283,7 +283,7 @@ path{
   width: 100%;
   height: 2px;
   margin: 20px 0;
-  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #50429E, #6C57EB);
 }
 
 .social-media a {
