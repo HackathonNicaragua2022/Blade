@@ -751,13 +751,15 @@ a:hover {
 .page-header__logo {
     display: block;
     position: relative;
-    margin-left: -2px;
+    margin-left: -4px;
 }
 
 
 .page-header__logo img {
-    max-width: 100px;
+    max-width: 40px;
     height: auto;
+    margin-right: 4px;
+
 }
 
 .page-header__logo_text {
@@ -1091,10 +1093,6 @@ a:hover {
     align-items: center;
 }
 
-.det {
-    max-height: 540px;
-    overflow-y: scroll;
-}
 
 .gallery .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: -30px;

@@ -51,7 +51,7 @@
         
       <div class="text-muted">
         <a href="#"><i class="bi bi-geo-alt-fill"></i>
-        </a>De la catedral, dos cuadras al norte, León
+        </a> De la catedral dos cuadras al norte, León
     </div>
         <div class="social-media">
             <div class="d-flex justify-content-center mb-3">
@@ -84,22 +84,6 @@
             </span>
         </p>
         <div class="social-media">
-            <div class="d-flex justify-content-center mb-3">
-                <a href="#">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#facebook"/></svg>
-                    <span class="tooltip-social">Facebook</span>
-                </a>
-                <a href="#">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#whatsapp"/></svg>
-                    <span class="tooltip-social">Whatsapp</span>
-                </a>
-                <a href="#">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#instagram"/></svg>
-                    <span class="tooltip-social">Instagram</span>
-                </a>
-                <a href="#">
-                </a>
-            </div>
         </div>
     </div>
 </div>
@@ -209,7 +193,7 @@
 
                 <br>
 
-                    <iframe class="w-100 rounded-3 mx-2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3896.231176340479!2d-86.880855!3d12.434312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1666499953605!5m2!1ses-419!2sni" style="height:500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    <iframe class="w-100 rounded-3 mx-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3896.231176340479!2d-86.880855!3d12.434312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1666499953605!5m2!1ses-419!2sni" style="height:500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                
                 

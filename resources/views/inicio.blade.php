@@ -61,7 +61,7 @@
                               <div class="game-card__info"><p class="game-card__title"> Artesanías</p>
                                   <div class="game-card__genre">Madera, barro, bambú, etc.</div>
                                   <div class="game-card__rating-and-price">
-                                    <div class="game-card__price"><a href="LisCategorías.html">Ingresar</a></div>
+                                    <div class="game-card__price"><a href="{{route}}">Ingresar</a></div>
                                 </div>
                               </div>
                           </div>
