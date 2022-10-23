@@ -88,8 +88,7 @@
     <header class="page-header">
         <div class="page-header__inner">
             <div class="page-header__sidebar">
-                <div class="page-header__menu-btn"><button class="menu-btn bi-menu-button-wide-fill is-active"></button></div>
-                <div class="page-header__logo"><img src="assets/img/logo.png" alt="logo"><span class="page-header__logo_text">Multi Emprende</span></div>
+                <div class="page-header__menu-btn"><button class="menu-btn bi-menu-button-wide-fill is-active"></button></div><span class="page-header__logo_text text-center">Multi Emprende</span>
             </div>
             <div class="page-header__content">
                 <div class="page-header__search">

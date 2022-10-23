@@ -133,11 +133,23 @@
 @section('content')
 
 <!--INICIO DE CONTENIDO PRINCIPAL-->
+<<<<<<< HEAD
 <hr class="mt-5">
 <div class="uk-width-1-1">
     <h1 class="card-title text-center titulo">PRODUCTOS</h1>
     <p class="text-center">Seleccione uno de los productos a continuación para acceder a todos sus detalles:</p>
     <br>
+=======
+<br>
+                <div class="uk-width-1-1"> 
+                    <h1 class="card-title text-center titulo">PRODUCTOS</h1>
+                    <p class="text-center">Seleccione uno de los productos a continuación para acceder a todos sus detalles:</p>
+                    <br>
+    
+                    <div class="js-popular">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+>>>>>>> 9012758162153be94abb02902f124f3f4a940241
 
     <div class="js-popular">
         <div class="swiper">
@@ -159,6 +171,7 @@
 
                         </div>
                     </div>
+<<<<<<< HEAD
                 </div>
 
                 <div class="swiper-slide">
@@ -242,6 +255,16 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3896.231176340479!2d-86.880855!3d12.434312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1666499953605!5m2!1ses-419!2sni" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
+=======
+                  </div>
+
+                <br>
+
+                    <iframe class="w-100 rounded-3 mx-2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3896.231176340479!2d-86.880855!3d12.434312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1666499953605!5m2!1ses-419!2sni" style="height:500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+               
+                
+>>>>>>> 9012758162153be94abb02902f124f3f4a940241
 
 <!--FIN CONTENIDO PRINCIPAL-->
 
