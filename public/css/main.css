@@ -883,6 +883,10 @@ a:hover {
     transition: all 0.25s linear;
 }
 
+.sidebar-box .uk-nav li a span{
+font-size: 20px;
+}
+
 .sidebar-box .uk-nav li a:hover,
 .sidebar-box .uk-nav li a:focus,
 .sidebar-box .uk-nav li a:active,
@@ -1023,6 +1027,10 @@ a:hover {
     justify-content: start;
 }
 
+.game-card__price a:hover{
+    color: #6C57EB;
+}
+
 .js-popular .game-card__rating,
 .uk-grid .uk-grid-small {
     justify-content: center;
@@ -1103,7 +1111,7 @@ a:hover {
 
 .gallery-small {
     margin-top: 15px;
-    max-width: 640px;
+    max-width: 100%;
 }
 
 .gallery-small .swiper {

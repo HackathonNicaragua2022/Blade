@@ -2,8 +2,8 @@
 @section('title', 'Detalles del Producto')
 
 @section('laterales')
+<!-- INICIO DE FOTO PRODUCTO -->
     <div class="uk-width-2-3@s">
-
         <div class="gallery rounded-3">
             <div class="js-gallery-big gallery-big">
                 <div class="swiper">
@@ -68,17 +68,15 @@
         </div>
         </div>
     </div>
+    <!-- FINAL DE FOTO PRODUCTO -->
 @endsection
 
 @section('content')
-
-<hr class="mt-5">
-                <div class="uk-width-1-1"> 
+                <div class="uk-width-1-1 mt-2"><!-- INICIO DE TARJETA QUE MUESTRAN EL PRODUCTO -->
                     <h1 class="card-title text-center titulo">PRODUCTOS</h1>
                     <p class="text-center">Seleccione uno de los productos a continuación para acceder a todos sus detalles:</p>
-                    <br>
-    
-                    <div class="js-popular">
+
+                    <div class="js-popular mt-2">
                         <div class="swiper">
                             <div class="swiper-wrapper">
 
@@ -94,11 +92,11 @@
                                                     <div class="game-card__price py-2"><span>C$ 100</span></div>
                                                 </div>
                                             </div>
-                                        
+
                                     </div>
                                     </div>
                                 </div>
-  
+
                                 <div class="swiper-slide">
                                     <div class="game-card">
                                         <div class="game-card__box">
@@ -114,7 +112,7 @@
                                         </div>
                                     </div>
                                 </div>
-  
+
                                 <div class="swiper-slide">
                                     <div class="game-card">
                                         <div class="game-card__box">
@@ -130,7 +128,7 @@
                                         </div>
                                     </div>
                                 </div>
-  
+
                                 <div class="swiper-slide">
                                     <div class="game-card">
                                         <div class="game-card__box">
@@ -146,7 +144,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                        
+
                                 <div class="swiper-slide">
                                     <div class="game-card">
                                         <div class="game-card__box">
@@ -163,13 +161,16 @@
                                     </div>
                                 </div>
                             </div>
+<!-- FINAL DE TARJETA QUE MUESTRAN EL PRODUCTO -->
+
+<!-- INICIO DE PAGINACIÓN -->
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
                   </div>
-
+<!-- INICIO DE PAGINACIÓN -->
 
 <!--FIN CONTENIDO PRINCIPAL-->
 

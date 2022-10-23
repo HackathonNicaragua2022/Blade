@@ -7,6 +7,7 @@
     @section('nombre')
     Restaurante La Cabaña
     @endsection
+    <!-- INICIO DE GALERIA DE FOTO  PRINCIPAL -->
     <div class="gallery rounded-3">
         <div class="js-gallery-big gallery-big mb-1">
             <div class="swiper swiper-full w-100 p-0 m-0 ">
@@ -15,11 +16,14 @@
                     <div class="swiper-slide p-3"><img class="imagen-slider rounded-3 w-100" src="img/Productos/C2.jpg" alt="image"></div>
                     <div class="swiper-slide p-3"><img class="imagen-slider rounded-3 w-100" src="img/Productos/C3.jpg" alt="image"></div>
 
-                    <div class="swiper-slide"><img class="rounded-3" src="img/Productos/C5.jpg" alt="image"></div>
-                    <div class="swiper-slide"><img class="rounded-3" src="img/Productos/C6.jpg" alt="image"></div>
+                    <div class="swiper-slide"><img class="imagen-slider rounded-3 w-100" src="img/Productos/C5.jpg" alt="image"></div>
+                    <div class="swiper-slide"><img class="imagen-slider rounded-3 w-100" src="img/Productos/C6.jpg" alt="image"></div>
                 </div>
             </div>
         </div>
+        <!-- FINAL DE FOTO PRINCIPAL -->
+
+        <!-- INICIO DE FOTO PEQUEÑAL -->
         <div class="js-gallery-small gallery-small">
             <div class="swiper swiper-thumbs">
                 <div class="swiper-wrapper">
@@ -34,8 +38,9 @@
             <div class="swiper-pagination"></div>
         </div>
     </div>
+    <!-- FINAL DE FOTO PEQUEÑA -->
 </div>
-
+<!-- INICIO DEL PERFIL DEL NEGOCIO -->
 <div class="uk-width-1-3@s det">
     <div class="game-profile-card">
         <div class="game-profile-card__media"><img src="img/06.jpg" alt="No se pudo cargar la imagen"></div>
@@ -58,11 +63,11 @@
                 <use xlink:href="#estrellas" />
             </svg>
         </div>
-        
-      <div class="text-muted">
-        <a href="#"><i class="bi bi-geo-alt-fill"></i>
-        </a> De la catedral dos cuadras al norte, León
-    </div>
+
+        <div class="text-muted">
+            <a href="#"><i class="bi bi-geo-alt-fill"></i>
+            </a> De la catedral dos cuadras al norte, León
+        </div>
         <div class="social-media">
             <div class="d-flex justify-content-center mb-3">
                 <a href="#">
@@ -92,7 +97,9 @@
             </div>
         </div>
     </div>
+    <!-- FINAL DE PERFIL DEL NEGOCIO -->
 
+<!-- INICIO DEL PERFIL DEL PROPIETARIO -->
     <div class="card-client my-3">
         <div class="user-picture">
             <img class="img-fluid rounded-3" src="img/03.jpg" alt="No se pudo cargar la imagen">
@@ -105,20 +112,18 @@
         </div>
     </div>
 </div>
+<!-- FINAL DEL PERFIL DEL PROPIETARIO -->
 
 @endsection
 
 @section('content')
 
 <!--INICIO DE CONTENIDO PRINCIPAL-->
-    <br>
-    <div class="uk-width-1-1"> 
-        <h1 class="card-title text-center titulo">PRODUCTOS</h1>
-        <p class="text-center">Seleccione uno de los productos a continuación para acceder a todos sus detalles:</p>
-        <br>
 
-
-    <div class="js-popular">
+<div class="uk-width-1-1 mt-2">
+    <h1 class="card-title text-center titulo">PRODUCTOS</h1>
+    <p class="text-center">Seleccione uno de los productos a continuación para acceder a todos sus detalles:</p>
+    <div class="js-popular mt-2">
         <div class="swiper">
             <div class="swiper-wrapper">
 
@@ -135,16 +140,17 @@
                                     <div class="game-card__price py-2"><span>C$ 100</span></div>
                                 </div>
                             </div>
-                                        
+
                         </div>
                     </div>
                 </div>
-  
+
                 <div class="swiper-slide">
                     <div class="game-card">
                         <div class="game-card__box">
                             <div class="game-card__media"><img src="img/Productos/C2.jpg" alt="image"></div>
-                            <div class="game-card__info"><p class="game-card__title">Sandwich</p>
+                            <div class="game-card__info">
+                                <p class="game-card__title">Sandwich</p>
                                 <div class="game-card__genre">Sandwich vegetari...</div>
 
                                 <div class="d-flex justify-content-between">
@@ -155,12 +161,13 @@
                         </div>
                     </div>
                 </div>
-  
+
                 <div class="swiper-slide">
                     <div class="game-card">
                         <div class="game-card__box">
                             <div class="game-card__media"><img src="img/Productos/C3.jpg" alt="image"></div>
-                            <div class="game-card__info"><p class="game-card__title">Crepas</p>
+                            <div class="game-card__info">
+                                <p class="game-card__title">Crepas</p>
                                 <div class="game-card__genre">Crepas de queso...</div>
 
                                 <div class="d-flex justify-content-between">
@@ -171,12 +178,13 @@
                         </div>
                     </div>
                 </div>
-  
+
                 <div class="swiper-slide">
                     <div class="game-card">
                         <div class="game-card__box">
                             <div class="game-card__media"><img src="img/Productos/C5.jpg" alt="image"></div>
-                            <div class="game-card__info"><p class="game-card__title">Masa Madre</p>
+                            <div class="game-card__info">
+                                <p class="game-card__title">Masa Madre</p>
                                 <div class="game-card__genre">Comida vegana de...</div>
 
                                 <div class="d-flex justify-content-between">
@@ -187,7 +195,7 @@
                         </div>
                     </div>
                 </div>
-                                        
+
                 <div class="swiper-slide">
                     <div class="game-card">
                         <div class="game-card__box">
@@ -213,14 +221,12 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-pagination"></div>
         </div>
-        </div>
     </div>
+</div>
 
+<iframe class="w-100 rounded-3 mx-3 mt-2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3896.231176340479!2d-86.880855!3d12.434312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1666499953605!5m2!1ses-419!2sni" style="height:500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
-    <br>
-    <iframe class="w-100 rounded-3 mx-3" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3896.231176340479!2d-86.880855!3d12.434312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38a4208de3a7182f!2sMoncho&#39;s%20Le%C3%B3n!5e0!3m2!1ses-419!2sni!4v1666499953605!5m2!1ses-419!2sni" style="height:500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-            
 
 <!--FIN CONTENIDO PRINCIPAL-->
 

@@ -6,16 +6,16 @@
 
     <div class="container" id="encab">
         <div class="row">
-         <img src="img/inicio/multi_emprende_nicaragua.jpg" alt="No se pudo cargar la imagen">     
+         <img src="img/inicio/multi_emprende_nicaragua.jpg" alt="No se pudo cargar la imagen">
         </div>
       </div>
 
   <section id="Listado">
-     <div class="container"> 
-        <hr>
-        <h1 class="text-center titulo">GASTRONOMÍA</h1>
-        <p class="text-center">Te presentamos nuestra colección de emprendimientos en base a la categoría que has seleccionado:</p>
-        <hr> 
+     <div class="container">
+        <!-- INICIO DE GATEGORIAS -->
+        <h1 class="text-center titulo mt-2">GASTRONOMÍA</h1>
+        <p class="text-center mb-4">Te presentamos nuestra colección de emprendimientos en base a la categoría que has seleccionado:</p>
+
         <div class="card mb-12 b5">
             <div class="row g-0">
                 <div class="card-image col-md-3">
@@ -53,9 +53,9 @@
         </div>
       
       </div>
-  <br>
+  <!-- FINAL DE GATEGORIAS -->
 
-    <div class="card mb-12 b5">
+    <div class="card mb-12 b5 mt-2">
       <div class="row g-0">
           <div class="card-image col-md-3">
               <img class="img-fluid"  src="img/negocios/2.jpg" alt="No se pudo cargar la imagen">
@@ -83,7 +83,7 @@
           </div>
       </div>
       <div class="col-md-2 d-md-none d-xl-block py-3 text-center">
-          
+
           <div class="etiquet-price">
               <p>Rivas</p>
               <div></div>
@@ -93,8 +93,7 @@
 
 </div>
 
-<br>
-<div class="card mb-12 b5">
+<div class="card mb-12 b5 mt-2">
     <div class="row g-0">
         <div class="card-image col-md-3">
             <img class="img-fluid"  src="img/negocios/3.jpg" alt="">
@@ -131,8 +130,7 @@
 </div>
 
 </div>
-<br>
-<div class="card mb-12 b5">
+<div class="card mb-12 b5 mt-2">
 <div class="row g-0">
     <div class="card-image col-md-3">
         <img class="img-fluid"  src="img/negocios/4.jpg" alt="">
@@ -169,9 +167,10 @@
 </div>
 
 </div>
-<br>
+
+<!-- INICIO DE PAGINACIÓN -->
 <nav aria-label="">
-    <ul class="pagination d-flex justify-content-center">
+    <ul class="pagination d-flex justify-content-center mt-5">
         <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
         <li class="page-item"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#">2</a></li>
@@ -180,8 +179,9 @@
     </ul>
 </nav>
 </div>
-  </section>
+<!-- FINAL DE PAGINACIÓN -->
+</section>
 
 <!--FIN CONTENIDO PRINCIPAL-->
 
-@endsection 
+@endsection

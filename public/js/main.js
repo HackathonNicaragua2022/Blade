@@ -34,53 +34,7 @@ jQuery(document).ready(function ($) {
 
     mediaHeader.addListener(handleHeader);
     handleHeader(mediaHeader);
-    const recommendSlider = new Swiper('swiper-full', {
-        slidesPerView: 1,
-        spaceBetween: 0,
-        loop: true,
-        watchOverflow: true,
-        observeParents: true,
-        observeSlideChildren: true,
-        centeredSlides: true,
-        observer: true,
-        speed: 800,
-        autoplay: {
-            delay: 5000
-        },
-        navigation: {
-            nextEl: '.js-recommend .swiper-button-next',
-            prevEl: '.js-recommend .swiper-button-prev'
-        },
-        pagination: {
-            el: '.js-recommend .swiper-pagination',
-            type: 'bullets',
-            // 'bullets', 'fraction', 'progressbar'
-            clickable: true
-        }
-    });
-    const trendingSlider = new Swiper('.swiper-thumbs', {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        loop: false,
-        watchOverflow: true,
-        observeParents: true,
-        observeSlideChildren: true,
-        observer: true,
-        speed: 800,
-        autoplay: {
-            delay: 5000
-        },
-        navigation: {
-            nextEl: '.js-trending .swiper-button-next',
-            prevEl: '.js-trending .swiper-button-prev'
-        },
-        pagination: {
-            el: '.js-trending .swiper-pagination',
-            type: 'bullets',
-            // 'bullets', 'fraction', 'progressbar'
-            clickable: true
-        }
-    });
+   
     const popularSlider = new Swiper('.js-popular .swiper', {
         slidesPerView: 1,
         spaceBetween: 25,
@@ -109,7 +63,7 @@ jQuery(document).ready(function ($) {
                 spaceBetween: 25
             },
             1199: {
-                slidesPerView: 4,
+                slidesPerView: 5,
                 spaceBetween: 25
             },
             1599: {
@@ -142,8 +96,12 @@ jQuery(document).ready(function ($) {
                 slidesPerView: 3,
                 spaceBetween: 20
             },
-            1599: {
+            1200: {
                 slidesPerView: 4,
+                spaceBetween: 20
+            },
+            1400: {
+                slidesPerView: 6,
                 spaceBetween: 20
             }
         }

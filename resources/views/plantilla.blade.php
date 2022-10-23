@@ -90,9 +90,7 @@
             <div class="page-header__sidebar">
                 <div class="page-header__menu-btn"><button class="menu-btn bi-menu-button-wide-fill is-active"></button></div>
                 <div class="page-header__logo"><img src="img/logo1.png" alt="logo"><span class="page-header__logo_text">Multi Emprende</span></div>
-              
-                    
-                
+
             </div>
             <div class="page-header__content">
                 <div class="page-header__search">
@@ -140,20 +138,17 @@
             <div class="uk-grid" data-uk-grid>
                 @yield('content')
             </div>
-           
-            
-            
-<!-- FOOTER -->           
+
+<!-- INICIO DE FOOTER -->
         <section id="contacto">
                 <div class="container">
                 <footer class="border-top py-2">
-                
-                    <div class="row"> 
+                    <div class="row">
                     <div class="col">
-                        <h5 class="text-center card-text pt-3">Multi Emprende</h5>    
-                    <p class="text-center">Síguenos a través de nuestras redes sociales</p> 
+                        <h5 class="text-center card-text pt-3">Multi Emprende</h5>
+                    <p class="text-center">Síguenos a través de nuestras redes sociales</p>
                     </div>
-                
+                    <!-- INICIO DE LA REDES SOCIALES -->
                     <div class="col-md-12">
                         <div class="social-media">
                                 <div class="d-flex justify-content-center mb-3">
@@ -175,11 +170,11 @@
                                 </div>
                             </div>
                     </div>
+                    <!-- FINAL DE LAS REDES SOCIALES -->
                     <div class="row">
-            
+
                         </div>
                     </div>
-                
             </footer>
                 </div>
             </section>
@@ -188,7 +183,7 @@
 
         </div>
         </main>
-    </div>    
+    </div>
     </div>
 
 </body>
