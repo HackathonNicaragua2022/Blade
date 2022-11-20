@@ -2,12 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Humanst521 BT, Roman, bold;
 }
+
 
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.title{
+  color: #00438E;
+  font-weight: 600;
 }
 
 .claro{ 
@@ -20,9 +26,8 @@ body {
   object-fit: cover;
 }
 
-
 .titulo{
-  background: linear-gradient(to right, #50429E, #6C57EB);
+  background-color: #00438E;
   color: white;
   font-size: 30px;
   border-radius: 20px 0 20px ;
@@ -34,11 +39,14 @@ body {
 }
 
 /*CONTENIDO DE LAS TARJETAS DE LA VISTA DE NEGOCIOS*/
+
+
 .card{
-  box-shadow:  3px 4px 3px #707070;
+  box-shadow: 3px 4px 3px #707070;
   border-radius: 9px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .card .img-fluid {
@@ -58,7 +66,7 @@ body {
 
 .nota{
   block-size: 35px;
-  background: linear-gradient(to right, #50429E, #6C57EB);
+  background: linear-gradient(to right, #00438E, #5084BD);
   color: white;
   border-radius: 8px;
   padding: 4px;
@@ -71,7 +79,7 @@ body {
   margin-inline-end: 5px;
   display: inline;
   font-size: 15px;
-  background: linear-gradient(to right, #50429E, #6C57EB);
+  background: linear-gradient(to right, #00438E, #5084BD);
   border-radius: 30%;
 }
 
@@ -85,24 +93,6 @@ body {
   margin-bottom: 4px;
 }
 
-
-/*=============ESTILOS DEL FOOTER=======================*/
-
-footer {
-  margin-top: 100px;
-  padding: 15px;
-	width:100%;
-  border-radius: 10px;
-  background: #e7e5e5
-}
-
-
-.copy{
-  height: 3rem;
-  background-color: #707070;
-  border-radius: 8px;
-  color: #fff;
-}
 
 
 /* From uiverse.io by @mrhyddenn */
@@ -125,7 +115,7 @@ footer {
   position: absolute;
   width: 150%;
   height: 40px;
-  background: linear-gradient(to right, #50429E, #6C57EB);
+  background: linear-gradient(to right, #00438E, #5084BD);
   transform: rotate(-45deg) translateY(-20px);
   display: flex;
   align-items: center;
@@ -155,7 +145,7 @@ footer {
 
 .etiquet-price {
   position: relative;
-  background: linear-gradient(to right, #50429E, #6C57EB);
+  background: linear-gradient(to right, #00438E, #5084BD);
   margin-left: .5rem;
   margin-right: -15px;
   padding: .2rem 2.2rem;
@@ -177,19 +167,27 @@ footer {
   right: 0px;
   width: 0;
   height: 0;
-  border-top: 13px solid #7a3300;
+  border-top: 13px solid #333333;
   border-bottom: 10px solid transparent;
   border-right: 13px solid transparent;
   z-index: 6;
 }
 
+.btn-link{
+  background-color: #5084BD;
+  color: #ffffff;
+  text-decoration: none;
+}
 
+.btn-link:hover{
+  background-color: #8FB0D5;
+}
 
 
 /* From uiverse.io by @abrahamcalsin */
 .price {
   position: relative;
-  background: linear-gradient(to right, #50429E, #6C57EB);
+  background: linear-gradient(to right, #00438E, #5084BD);
   margin: .5rem -.8rem 1rem 3rem;
   padding: .2rem 1.2rem;
   border-radius: 5px 0 0 5px;
@@ -282,7 +280,7 @@ path{
   width: 100%;
   height: 2px;
   margin: 20px 0;
-  background: linear-gradient(to right, #50429E, #6C57EB);
+  background: linear-gradient(to right, #00438E, #5084BD);
 }
 
 .social-media a {
@@ -342,4 +340,125 @@ path{
 
 .btn-danger:hover{
   background-color:#50429E ;
+}
+
+
+/*=============ESTILOS DEL FOOTER=======================*/
+
+footer {
+  margin-top: 100px;
+  padding: 15px;
+	width:100%;
+  border-radius: 10px;
+}
+
+
+.footer {
+  background-color: #ffffff;
+  background-size: contain;
+  border-top: 4px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  padding: 60px 0 60px 0;
+}
+
+@media (max-width: 992px) {
+  .footer{
+      background-position: center bottom;
+  }
+}
+
+  .footer .footer-info .logo {
+      line-height: 0;
+      text-decoration: none;
+  }
+
+      .footer .footer-info .logo svg {
+          margin-right: 9px;
+      }
+
+      .footer .footer-info .logo span {
+          font-size: 30px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          color: #00438E;
+          font-family: "Nunito", sans-serif;
+          margin-top: 3px;
+
+      }
+
+  .footer .footer-info p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 0;
+  }
+
+.footer .social-links a {
+  font-size: 20px;
+  display: inline-block;
+  color: #668AB4;
+  line-height: 0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+  .footer .social-links a:hover {
+      color: #00438E;
+  }
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00438E;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+  .footer .footer-links ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+      .footer .footer-links ul i {
+          padding-right: 2px;
+          color: #d0d4fc;
+          font-size: 12px;
+          line-height: 0;
+      }
+
+      .footer .footer-links ul li {
+          padding: 10px 0;
+          display: inline-block;
+          align-items: center;
+      }
+
+          .footer .footer-links ul li:first-child {
+              padding-top: 0;
+          }
+
+      .footer .footer-links ul a {
+          color: #00438E;
+          transition: 0.3s;
+          display: inline-block;
+          line-height: 1;
+          text-decoration: none;
+      }
+
+          .footer .footer-links ul a:hover {
+              color: #5084BD;
+          }
+
+.footer .footer-contact p {
+  line-height: 26px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: #00438E;
 }

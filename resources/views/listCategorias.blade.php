@@ -4,19 +4,13 @@
 
 <!--INICIO DE CONTENIDO PRINCIPAL-->
 
-    <div class="container" id="encab">
-        <div class="row">
-         <img src="img/inicio/multi_emprende_nicaragua.jpg" alt="No se pudo cargar la imagen">
-        </div>
-      </div>
-
   <section id="Listado">
      <div class="container">
         <!-- INICIO DE GATEGORIAS -->
         <h1 class="text-center titulo mt-2">GASTRONOMÍA</h1>
         <p class="text-center mb-4">Te presentamos nuestra colección de emprendimientos en base a la categoría que has seleccionado:</p>
 
-        <div class="card mb-12 b5">
+        <div class="card mt-4 b5">
             <div class="row g-0">
                 <div class="card-image col-md-3">
                     <img class="img-fluid" src="img/negocios/1.jpg" alt="No se pudo cargar la imagen">
@@ -36,10 +30,7 @@
                       Es un restaurante de comida tradicional y a la carta ubicado en la ciudad de Estelí.
                     </p>
                     <div class="card-icons">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-whatsapp"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+                        <a href="/detallesdelnegocio" class="btn btn-link" ><span class="bi bi-eye-fill px-1"></span>Detalles</a>
                     </div>
                 </div>
             </div>
@@ -55,7 +46,7 @@
       </div>
   <!-- FINAL DE GATEGORIAS -->
 
-    <div class="card mb-12 b5 mt-2">
+    <div class="card mb-12 b5 mt-4">
       <div class="row g-0">
           <div class="card-image col-md-3">
               <img class="img-fluid"  src="img/negocios/2.jpg" alt="No se pudo cargar la imagen">
@@ -75,11 +66,8 @@
                 La mejor opción de comida tradicional en Rivas.
               </p>
               <div class="card-icons">
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-whatsapp"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
-              </div>
+                        <a href="/detallesdelnegocio" class="btn btn-link" ><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+                    </div>
           </div>
       </div>
       <div class="col-md-2 d-md-none d-xl-block py-3 text-center">
@@ -93,7 +81,7 @@
 
 </div>
 
-<div class="card mb-12 b5 mt-2">
+<div class="card mb-12 b5 mt-4">
     <div class="row g-0">
         <div class="card-image col-md-3">
             <img class="img-fluid"  src="img/negocios/3.jpg" alt="">
@@ -113,11 +101,8 @@
               El restaurante por excelencia de la ciudad de las brumas.
             </p>
             <div class="card-icons">
-                <a href="#"><i class="bi bi-facebook"></i></a>
-                <a href="#"><i class="bi bi-whatsapp"></i></a>
-                <a href="#"><i class="bi bi-instagram"></i></a>
-                <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
-            </div>
+                        <a href="/detallesdelnegocio" class="btn btn-link" ><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+                    </div>
         </div>
     </div>
     <div class="col-md-2 d-md-none d-xl-block py-3 text-center">
@@ -130,8 +115,8 @@
 </div>
 
 </div>
-<div class="card mb-12 b5 mt-2">
-<div class="row g-0">
+<div class="card mb-12 b5 mt-4">
+ <div class="row g-0">
     <div class="card-image col-md-3">
         <img class="img-fluid"  src="img/negocios/4.jpg" alt="">
     </div>
@@ -150,11 +135,8 @@
           Es un restaurante especialista en comida peruana y mexicana.
         </p>
         <div class="card-icons">
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-whatsapp"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="/detallesdelnegocio"><span class="bi bi-eye-fill px-1"></span>Detalles</a>
-        </div>
+                        <a href="/detallesdelnegocio" class="btn btn-link" ><span class="bi bi-eye-fill px-1"></span>Detalles</a>
+                    </div>
     </div>
 </div>
 <div class="col-md-2 d-md-none d-xl-block py-3 text-center">

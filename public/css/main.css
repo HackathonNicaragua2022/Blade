@@ -204,14 +204,14 @@ a:hover {
     appearance: none;
     -webkit-box-shadow: 2px 2px 7px 0px #00000024;
     z-index: 5;
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     right: 20px;
     width: 75px;
     height: 40px;
     border-radius: 20px;
     outline: none;
-    background-color: #F46119;
+    background-color: #00438E;
     box-shadow: 2px 2px 7px 0px #00000024;
     cursor: pointer;
 }
@@ -229,7 +229,7 @@ a:hover {
 
 .dark-theme {
     background-color: #15181f;
-    color: #ffffff;
+    color: #EAEAEA;
 }
 
 .dark-theme #toggle {
@@ -317,27 +317,11 @@ body.no-scroll {
     pointer-events: none;
 }
 
-.scroll-box {
-    scrollbar-color: #F46119 #E2EBEC;
-    scrollbar-width: thin !important;
-}
-
-.scroll-box::-webkit-scrollbar {
-    width: 4px;
-}
-
-.scroll-box::-webkit-scrollbar-track {
-    background-color: #E2EBEC;
-}
-
-.scroll-box::-webkit-scrollbar-thumb {
-    background-color: #F46119;
-}
 
 a {
     -webkit-transition: all 0.25s linear;
     -o-transition: all 0.25s linear;
-    color: #ff6a00;
+    color: #00438E;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -346,7 +330,11 @@ a {
 }
 
 a:hover {
-    color: #ee0979;
+    color: #8FB0D5;
+}
+
+a:focus{
+    border: none;
 }
 
 .search {
@@ -883,16 +871,29 @@ a:hover {
     transition: all 0.25s linear;
 }
 
-.sidebar-box .uk-nav li a span{
-font-size: 20px;
+.navbar{
+    box-shadow: 0px 2px 20px #0129701a;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #FFFFFF;
 }
 
-.sidebar-box .uk-nav li a:hover,
-.sidebar-box .uk-nav li a:focus,
-.sidebar-box .uk-nav li a:active,
-.sidebar-box .uk-nav li a.nice-select.open {
-    background: linear-gradient(to right, #50429E, #6C57EB);
+.nav-item, .navbar-brand{
+    padding: 4px;
+    color:#00438E;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    background-color: #00438E;
+    border-radius: 15px;
     color: #ffffff;
+}
+
+.navbar-brand:hover{
+    color:#1a1a1a;
 }
 
 
@@ -995,7 +996,7 @@ font-size: 20px;
 .game-card__title {
     -o-text-overflow: ellipsis;
     overflow: hidden;
-    color: #353535;
+    color: #00438E;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -1017,14 +1018,6 @@ font-size: 20px;
     font-weight: normal;
     line-height: 1.36;
     color: #646464;
-}
-
-.game-card__price {
-    color: #F46119;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    justify-content: start;
 }
 
 .game-card__price a:hover{
@@ -1156,6 +1149,7 @@ font-size: 20px;
 
 body.dark-theme .nice-select {
     background: #1A2634;
+    
 }
 
 body.dark-theme .nice-select .current {
@@ -1218,8 +1212,17 @@ body.dark-theme .search__input {
     background: #1A2634;
 }
 
-body.dark-theme footer {
+body.dark-theme .footer,
+body.dark-theme .footer-info {
     background: #1A2634;
+    border: none;
+}
+
+body.dark-theme .footer-info a,
+body.dark-theme .footer-info .name,
+body.dark-theme .footer h4,
+body.dark-theme .copyright{
+    color: #e2e2e2;
 }
 
 body.dark-theme .search__btn button {
@@ -1255,7 +1258,7 @@ body.dark-theme .game-card__box{
 
 body.dark-theme .card{
     background: #0C1826;
-    box-shadow: none;
+    box-shadow: 2px 3px 2px #3b3b3b;
 }
 
 
