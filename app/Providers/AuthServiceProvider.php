@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
-// use Illuminate\Support\Facades\Gate;
+
+use Illuminate\Support\Facades\Gate;
+
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 
 class AuthServiceProvider extends ServiceProvider
@@ -25,6 +27,13 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        //SPATIE
+
+        // Otorgar implícitamente todos los permisos a la función "Superadministrador"
+         // Esto funciona en la aplicación usando funciones relacionadas con la puerta como auth()->user->can() y @can()
+        Gate::before(function ($user, $ability) {
+            return $user->email == 'zelayaubeda103@gmail.com' ?? null;
+        });
+
     }
 }

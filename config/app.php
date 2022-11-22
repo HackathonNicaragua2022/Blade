@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Multi Emprende'),
 
     /*
     |--------------------------------------------------------------------------
@@ -181,6 +181,9 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+
+        //Spatie
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Package Service Providers...

@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/estilos.css">
         <link rel="stylesheet" href="Iconos/node_modules/bootstrap-icons/font/bootstrap-icons.css">
         <link rel="stylesheet" href="css/libs.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/estilos2.css">
     </head>
 
     <body onload="cargarModo();">
@@ -104,6 +104,9 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Contacto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/login">Iniciar Sesión</a>
                                     </li>
                                 </ul>
 

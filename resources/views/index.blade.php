@@ -21,9 +21,6 @@
 </section>
 
 <!--INICIO DE TARJETAS-->
-<section class="bg-dark">
-  <h1>Hola</h1>
-</section>
 
   <div class="uk-width-1-1 mt-5" id="negocios">
     <h2 class="title text-center">NEGOCIOS</h2>
@@ -44,7 +41,7 @@
                     <p class="game-card__title">Artesanías</p>
                   <div class="game-card__genre">Madera, bambú, etc.</div>
                 </div>
-                    <a class="btn btn-link" href="/categorias">Ingresar</a>
+                    <a class="btn btn-link" href="/lista-categorias">Ingresar</a>
               </div>
             </div>
             <!--FIN DE LA TARJETA-->
@@ -58,7 +55,7 @@
                   <p class="game-card__title"> Cuero / Calzado</p>
                   <div class="game-card__genre">Zapatos, billeteras, etc.</div>
                 </div>
-                <a class="btn btn-link" href="/categorias">Ingresar</a>
+                <a class="btn btn-link" href="/lista-categorias">Ingresar</a>
               </div>
             </div>
           </div>
@@ -71,7 +68,7 @@
                   <p class="game-card__title">Gastronomía</p>
                   <div class="game-card__genre">Comidas, bebidas...</div>
                 </div>
-                <a class="btn btn-link" href="/categorias">Ingresar</a>
+                <a class="btn btn-link" href="/lista-categorias">Ingresar</a>
               </div>
             </div>
           </div>
@@ -84,7 +81,7 @@
                   <p class="game-card__title">Hotelería</p>
                   <div class="game-card__genre">Hoteles, hostales, etc.</div>
                 </div>
-                <a class="btn btn-link" href="/categorias">Ingresar</a>
+                <a class="btn btn-link" href="/lista-categorias">Ingresar</a>
               </div>
             </div>
           </div>
@@ -97,7 +94,7 @@
                   <p class="game-card__title">Textil / Vestuario</p>
                   <div class="game-card__genre">Ropa, telas, etc.</div>
                 </div>
-                <a class="btn btn-link" href="/categorias">Ingresar</a>
+                <a class="btn btn-link" href="/lista-categorias">Ingresar</a>
               </div>
             </div>
           </div>
@@ -111,7 +108,7 @@
                   <p class="game-card__title">Turismo</p>
                   <div class="game-card__genre">Canopy, tours, etc.</div>
                 </div>
-                <a class="btn btn-link" href="/categorias">Ingresar</a>
+                <a class="btn btn-link" href="/lista-categorias">Ingresar</a>
               </div>
             </div>
           </div>
