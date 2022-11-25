@@ -160,8 +160,8 @@
                   <div class="card card-servicios rounded mt-4">
                     <img class="img-servicios" src="img/Servicios/Recursos_Asesoramiento.png" alt="No se pudo cargar cargar la imagen">
                       <div class="card-body">
-                        <h4 class="card-tittle text-light">Asesoramiento</h4>
-                      <p class="card-text">Multi Emprende establece un canal de conexión con los emprendedores para garantizar el óptimo.</p>
+                        <h4 class="card-tittle text-light">Control de Calidad</h4>
+                      <p class="card-text">Monitoreamos el contenido que ingresa a nustra plataforma para verificar su utilidad.</p>
                       </div>
                   </div>
               </div>
@@ -170,8 +170,8 @@
                 <div class="card card-servicios rounded mt-4">
                   <img class="img-servicios" src="img/Servicios/Recursos_Asesoramiento.png" alt="No se pudo cargar cargar la imagen">
                     <div class="card-body">
-                      <h4 class="card-tittle text-light">Asesoramiento</h4>
-                    <p class="card-text">Multi Emprende establece un canal de conexión con los emprendedores para garantizar el óptimo.</p>
+                      <h4 class="card-tittle text-light">Seguimiento</h4>
+                    <p class="card-text">Posterior a tu inscripción seguirás reciiendo atención personalizada.</p>
                     </div>
                 </div>
             </div>
