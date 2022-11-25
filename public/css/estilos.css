@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Humanst521 BT, Roman, bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -10,6 +10,11 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+h1, h2, h3, h4, h5, h5, h6{
+  color: #00438B;
+}
+
 
 .title{
   color: #00438E;
@@ -34,16 +39,12 @@ body {
   padding: 4px 4px 4px 4px ;
 }
 
-.sobre{
-  border-radius: 20px 0 20px ;
-}
 
 /*CONTENIDO DE LAS TARJETAS DE LA VISTA DE NEGOCIOS*/
 
 
 .card{
-  box-shadow: 3px 4px 3px #707070;
-  border-radius: 9px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -73,27 +74,63 @@ body {
   width: 100%;
 }
 
-.card-icons i{
-  color: #fff;
-  padding: 5px;
-  margin-inline-end: 5px;
-  display: inline;
-  font-size: 15px;
-  background: linear-gradient(to right, #00438E, #5084BD);
-  border-radius: 30%;
+
+/* ESTILOS TARJETAS SERVICIOS */
+.card-servicios{
+background-color: #8fb0d5;
+box-shadow:  3px 4px 3px #707070;
 }
 
-.card-icons i:hover{
-  border-radius: 30%;
-  background: linear-gradient(to right, #0088ff, #001aff);
+.img-servicios{
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+  margin-top: -30px;
+  margin-left: 15px;
+  background-color: #FFFFFF;
 }
 
-.linea{
-  border: 0.1px solid;
-  margin-bottom: 4px;
-}
-
-
+/* ESRTILOS TARJETAS PLANES */
+ 
+.title {
+  text-align: center;
+  margin-top: 0.5em;
+  font-weight: bold;
+  font-size: x-large;
+  color: rgb(112, 112, 112);
+ }
+ 
+ .pricecontainer {
+  width: 100%;
+  background-color: #00438B;
+  border-radius: 8PX;
+ }
+ 
+ .precio {
+  text-align: center;
+  color: #ece9e9;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0.75em 0 0 0;
+ }
+ 
+ .pricedescriptor {
+  text-align: center;
+  color: #cecdcd;
+  font-size: medium;
+ }
+ 
+ .includes {
+  text-align: center;
+  color: #6e6e6e;
+  font-size: small;
+  font-weight: bold;
+ }
+ 
+ .benefitlist li {
+  color: #969696;
+  font-size: small;
+ }
 
 /* From uiverse.io by @mrhyddenn */
 
