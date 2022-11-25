@@ -9,7 +9,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <img class="img-fluid" src="img/foto.png" alt="No se pudo cargar la imagen">
+      <img class="img-fluid" src="img/" alt="No se pudo cargar la imagen">
     </div>
     <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0">
       <h2 class="title text-center">MULTI EMPRENDE</h2>

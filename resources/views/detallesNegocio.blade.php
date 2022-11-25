@@ -99,7 +99,7 @@
     </div>
     <!-- FINAL DE PERFIL DEL NEGOCIO -->
 
-<!-- INICIO DEL PERFIL DEL PROPIETARIO -->
+    <!-- INICIO DEL PERFIL DEL PROPIETARIO -->
     <div class="card-client my-3">
         <div class="user-picture">
             <img class="img-fluid rounded-3" src="img/03.jpg" alt="No se pudo cargar la imagen">
@@ -136,7 +136,7 @@
                                 <div class="game-card__genre">Ensalada de espina...</div>
 
                                 <div class="d-flex justify-content-between">
-                                    <a href="detallesProducto.html"><button class="btn btn-danger">Detalles</button></a>
+                                    <a href="/detallesdelproducto"><button class="btn btn-danger">Detalles</button></a>
                                     <div class="game-card__price py-2"><span>C$ 100</span></div>
                                 </div>
                             </div>

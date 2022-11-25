@@ -1017,7 +1017,7 @@ a:focus{
     font-style: normal;
     font-weight: normal;
     line-height: 1.36;
-    color: #646464;
+    color: #5084bd;
 }
 
 .game-card__price a:hover{
@@ -1289,7 +1289,7 @@ body.dark-theme .game-card__rating {
 
 body.dark-theme .gallery,
 body.dark-theme .game-profile-card,
-body.dark-theme .game-profile-price, 
+body.dark-theme .game-profile-price,
 body.dark-theme .card-client{
     background: #0C1826;
     color: #A1A1A1;
@@ -1308,7 +1308,6 @@ body.dark-theme .card-client{
 
 @media only screen and (max-width: 1199px) {
 
-   
 
     html .game-profile-card__list li > *:first-child {
         margin-right: 0;
@@ -1584,7 +1583,7 @@ body.dark-theme .card-client{
 
 .game-card__title,
 .my-game-item__title {
-    color: #1f1f1f;
+    color: #00438E ;
     display: block;
     margin-bottom: 10px;
     font-family: 'Inter', sans-serif;
@@ -1902,4 +1901,9 @@ html body.dark-theme .game-profile-card__intro {
 .imagen-slider{
     max-height: 640px;
     object-fit: cover;
+}
+
+p {
+    color: #668AB4;
+    font-weight: bold;
 }
