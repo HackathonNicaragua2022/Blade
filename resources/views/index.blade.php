@@ -2,7 +2,6 @@
 @section('title', 'Multi Emprende')
 @section('content')
 
-    <!--CONTENIDO PRINCIPAL-->
     <section id="encabezado" class="d-flex align-items-center">
         <div class="container mt-2">
             <div class="row mt-4">
@@ -21,7 +20,7 @@
             </div>
         </div>
     </section>
-    <!--FIN DE CONTENIDO PRINCIPAL-->
+
     <!--INICIO DE TARJETAS NEGOCIOS-->
     <section id="negocios">
         <div class="container">
@@ -30,7 +29,7 @@
                 <p class="text-center">Selecciona una de las categorías a continuación y accede al listado de
                     emprendimientos
                     inscritos:</p>
-                <div class="js-popular">
+                <div class="js-popular mb-5">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -125,9 +124,10 @@
         </div>
     </section>
     <!--FIN DE TARJETAS NEGOCIOS-->
+
     <!-- INICIO DE SERVICIOS -->
     <section id="servicios">
-        <div class="container mt-5">
+        <div class="container servicios">
             <div class="row">
                 <div class="text-center">
                     <h2 class="titulos">Servicios</h2>
@@ -135,7 +135,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4  d-flex justify-content-center ">
+            <div class="row row-cols-1 row-cols-md-3 g-4  d-flex justify-content-center">
                 <div class="col-md-3">
                     <div class="card card-servicios rounded mt-4 h-100">
                         <img class="img-servicios" src="img/Servicios/Asesoramiento.png"
@@ -175,10 +175,11 @@
         </div>
     </section>
     <!-- FIN SERVICIO -->
+
     <!-- INICIO DE PLANES -->
-    <section class="planes-precio my-5 py-4">
-        <div class="container">
-            <h2 class="titulos text-center">Nuestros Planes</h2>
+    <section class="planes-precio">
+        <div class="container planes">
+            <h2 class="titulos text-center mt-5">Nuestros Planes</h2>
             <p class="text-center">Multi Emprende ofrece planes de suscripción que se adapatan a tu bolsillo.</p>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-3">

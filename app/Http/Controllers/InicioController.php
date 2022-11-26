@@ -12,6 +12,8 @@ class InicioController extends Controller
         return view('inicio');
     }
 
+    // ACCESO A LA PAGINA DE INICIO
+    
     public function index()
     {
         return view('listCategorías', compact('listCategorías'));

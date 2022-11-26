@@ -7,6 +7,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
+
+                    {{-- GALERIA GRANDE --}}
                     <div class="gallery rounded-3 mb-5">
                         <div class="js-gallery-big gallery-big">
                             <div class="swiper">
@@ -29,6 +31,8 @@
                                 </div>
                             </div>
                         </div>
+
+                        {{-- GALERIA PEQUEÑA --}}
                         <div class="js-gallery-small gallery-small">
                             <div class="swiper">
                                 <div class="swiper-wrapper">
@@ -49,10 +53,13 @@
                                     </div>
                                 </div>
                             </div>
+
+                            {{-- PAGINACIÓN DEL SLIDER --}}
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
                 </div>
+
                 <!--INICIO DE INFORMACION DEL NEGOCIO-->
                 <div class="col-lg-4">
                     <div class="game-profile-card">
@@ -112,6 +119,7 @@
                             </div>
                         </div>
                         <!--FINAL DE INFORMACION DEL NEGOCIO-->
+
                         <!--INICIO DE VISTA DEL PRODUCTOS-->
                     </div>
                     <div class="card">
@@ -153,7 +161,7 @@
                                                 <p class="game-card__title">Ensalada</p>
                                                 <div class="game-card__genre">Ensalada de espina...</div>
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button
+                                                    <a href="/detalles-producto"><button
                                                             class="btn btn-link">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 100</span></div>
                                                 </div>
@@ -170,7 +178,7 @@
                                                 <p class="game-card__title">Sandwich</p>
                                                 <div class="game-card__genre">Sandwich vegetari...</div>
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button
+                                                    <a href="/detalles-producto"><button
                                                             class="btn btn-link">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 80</span></div>
                                                 </div>
@@ -187,7 +195,7 @@
                                                 <p class="game-card__title">Crepas</p>
                                                 <div class="game-card__genre">Crepas de queso...</div>
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button
+                                                    <a href="/detalles-producto"><button
                                                             class="btn btn-link">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 120</span></div>
                                                 </div>
@@ -204,7 +212,7 @@
                                                 <p class="game-card__title">Masa Madre</p>
                                                 <div class="game-card__genre">Comida vegana de...</div>
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button
+                                                    <a href="/detalles-producto"><button
                                                             class="btn btn-link">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 150</span></div>
                                                 </div>
@@ -221,7 +229,7 @@
                                                 <p class="game-card__title">Burritos</p>
                                                 <div class="game-card__genre">Burritos en salsa BBQ</div>
                                                 <div class="d-flex justify-content-between">
-                                                    <a href="detallesProducto.html"><button
+                                                    <a href="/detalles-producto"><button
                                                             class="btn btn-link">Detalles</button></a>
                                                     <div class="game-card__price py-2"><span>C$ 100</span></div>
                                                 </div>
@@ -251,7 +259,7 @@
             </div>
         </section>
         <!--FINAL DE VISTA DEL MAPA--
-        </section>
-        {{-- FIN CONTENIDO PRINCIPAL --}}
+                    </section>
+                    {{-- FIN CONTENIDO PRINCIPAL --}}
 
 @endsection

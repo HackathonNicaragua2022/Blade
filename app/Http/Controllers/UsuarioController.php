@@ -22,7 +22,7 @@ class UsuarioController extends Controller
      */
     public function index()
     {
-        //
+        //Establece la paginación y retorna la vista index
         $usuarios = User::paginate(5);
         return view ('usuarios.index', compact('usuarios'));
     }
@@ -34,7 +34,7 @@ class UsuarioController extends Controller
      */
     public function create()
     {
-        //
+        //Retorna los roles de usuario en base al seeder
         $roles = Role::pluck('name', 'name')->all();
         return view('usuarios.crear', compact('roles'));
     }
@@ -47,7 +47,7 @@ class UsuarioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //Valida las entradas
         $this->validate($request, [
             'name' => 'required', 
             'email' => 'required|email|unique:users,email',
@@ -55,9 +55,11 @@ class UsuarioController extends Controller
             'roles' => 'required'
         ]);
 
+        // Recibe la contraseña de usuario
         $input = $request->all();
         $input ['password'] = Hash::make($input['password']);
 
+        // Crea el usuario y le asigan los roles que fueron seleccionados
         $user = User::create($input);
         $user->assignRole($request->input('roles'));
 
@@ -83,7 +85,7 @@ class UsuarioController extends Controller
      */
     public function edit($id)
     {
-        //
+        //Busca el id del usuario y los roles establecidos en el seeder y los asignados al usuario
         $user = User::find($id);
         $roles = Role::pluck('name', 'name')->all();
         $userRole = $user->roles->pluck('name', 'name')->all();
@@ -100,7 +102,7 @@ class UsuarioController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        //Valida las entradas
         $this->validate($request, [
             'name' => 'required', 
             'email' => 'required|email|unique:users,email,'.$id,
@@ -108,6 +110,8 @@ class UsuarioController extends Controller
             'roles' => 'required'
         ]);
 
+        //Valida que el campo contraseña no esté vacío y recibe la contraseña
+        // Si está vacío toma la contraseña guardada en la base de datos
         $input = $request->all();
         if(!empty($input['password'])){
             $input['password'] = Hash::make($input['password']);
@@ -115,10 +119,14 @@ class UsuarioController extends Controller
             $input = Arr::except($input, array('password'));
         }
 
+        // Busca al usuario en la base de datos y actualiza el registro
         $user = User::find($id);
         $user->update($input);
+
+        // Borra el rol anterior
         DB::table('model_has_roles')->where('model_id', $id)->delete();
 
+        // Asigna los nuevos roles y retorna la vista 
         $user ->assignRole($request->input('roles'));
         return redirect()->route('usuarios.index');
     }
@@ -131,7 +139,7 @@ class UsuarioController extends Controller
      */
     public function destroy($id)
     {
-        //
+        //Busca el id del usuario y borra el registro
         User::find($id)->delete();
         return redirect()->route('usuarios.index');
     }

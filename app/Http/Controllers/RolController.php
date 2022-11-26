@@ -19,6 +19,7 @@ class RolController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+    //  restricción de acceso en base a los permisos de usuario
 function __construct()
 {
     $this->middleware('permission:ver-rol | crear-rol | editar-rol | borrar-rol', ['only'=>['index']]);
@@ -43,7 +44,7 @@ function __construct()
 
     public function create()
     {
-        //
+        //Obtiene todos los datos y retorna el formulario
         $permission = Permission::get();
         return view ('roles.crear', compact('permission'));
     }
@@ -57,10 +58,10 @@ function __construct()
 
     public function store(Request $request)
     {
-        //validar los campos
+        //Validar los campos
         $this->validate($request, ['name' => 'required', 'permission' => 'required']);
 
-        //guardar los campos y retornar la vista
+        //Guardar los campos y retornar la vista
         $role = Role::create(['name'=> $request->input('name')]);
         $role->syncPermissions($request->input('permission'));
 
@@ -116,7 +117,7 @@ function __construct()
         //Buscar el campo con esa id y guardarlo en la variable
         $role = Role::find($id);
 
-        //guardar los campos y retornar la vista
+        //Guardar los campos y retornar la vista
         $role->name = $request->input('name');
         $role->save();
 
@@ -133,7 +134,7 @@ function __construct()
      */
     public function destroy($id)
     {
-        //Consulta la base de datos y elimina conforme al ID
+        //Consulta la base de datos y elimina conforme al id
         DB::table('roles')->Where('id', $id)->delete();
 
         return redirect()->route('roles.index');

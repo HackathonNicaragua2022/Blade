@@ -1,4 +1,4 @@
-/* ESTILOS GENERALES */
+/* Estilos generales */
 
 * {
   margin: 0;
@@ -11,12 +11,13 @@ body {
   padding-bottom: 3rem;
 }
 
+/* Fondo del modo claro  */
 .claro {
   background-color: #ffffff;
 }
 
 
-/* ESTILOS GENERALES DE TEXTO */
+/* Estilos generales del texto */
 
 .titulo1 {
   font-family: Humanist 512 Bold BT;
@@ -45,7 +46,6 @@ color: #00438E;
   font-size: 33px;
 }
 
-
 .titulos {
   color: #00438E;
   font-weight: bold;
@@ -60,7 +60,7 @@ color: #00438E;
   padding: 4px 4px 4px 4px;
 }
 
-/* BARRA LATERAL */
+/* Barra lateral del panel de administración*/
 .barra-lateral {
   background-color: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
@@ -76,7 +76,7 @@ color: #00438E;
   background-color: #00438E;
 }
 
-/*CONTENIDO DE LAS TARJETAS DE LA VISTA DE NEGOCIOS*/
+/*Contenido de las tarjetas de negocios*/
 
 
 .card {
@@ -111,7 +111,11 @@ color: #00438E;
 }
 
 
-/* ESTILOS TARJETAS SERVICIOS */
+/* estilos de las tarjetas de servicios */
+.servicios{
+  margin-top: 100px;
+}
+
 .card-servicios {
   background-color: #8fb0d5;
   box-shadow: 3px 4px 3px #707070;
@@ -130,7 +134,11 @@ color: #00438E;
   font-weight: normal;
   color: #ffffff ;
 }
-/* ESRTILOS TARJETAS PLANES */
+
+/* Estilos de las tarjetas de planes */
+.planes{
+  margin-top: 150px;
+}
 
 .planes-titulo {
   text-align: center;
@@ -172,53 +180,8 @@ color: #00438E;
   font-size: small;
 }
 
-/* From uiverse.io by @mrhyddenn */
 
-
-.etiqueta p {
-  position: absolute;
-  overflow: hidden;
-  width: 150px;
-  height: 150px;
-  top: -10px;
-  left: -10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.etiqueta p::before {
-  content: 'Premium';
-  position: absolute;
-  width: 150%;
-  height: 40px;
-  background: linear-gradient(to right, #00438E, #5084BD);
-  transform: rotate(-45deg) translateY(-20px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.23);
-}
-
-.etiqueta p::after {
-  content: '';
-  position: absolute;
-  width: 10px;
-  bottom: 0;
-  left: 0;
-  height: 10px;
-  z-index: -1;
-  box-shadow: 140px -140px #cc3f47;
-  background-image: linear-gradient(45deg, #FF512F 0%, #7d19f0 51%, #FF512F 100%);
-}
-
-
-
-/* From uiverse.io by @abrahamcalsin */
+/* Etiqueta para el precio del producto */
 
 .etiquet-price {
   position: relative;
@@ -236,7 +199,6 @@ color: #00438E;
   color: #fff;
   padding: 4px;
 }
-
 
 .etiquet-price div {
   position: absolute;
@@ -263,10 +225,10 @@ color: #00438E;
 }
 
 
-/* From uiverse.io by @abrahamcalsin 00438E*/
+
 .price {
   position: relative;
-  background: linear-gradient(to right, #5084BD);
+  background: linear-gradient(to right, #00438E, #5084BD);
   margin: .5rem -.8rem 1rem 3rem;
   padding: .2rem 1.2rem;
   border-radius: 5px 0 0 5px;

@@ -20,19 +20,11 @@ use App\Http\Controllers\ProductoController;
 |
 */
 
-
+// RUTAS DE ACCESO AL PÚBLICO EN GENERAL
 
 Route::get('/', function () {
     return view('index');
 });
-
-Route::get('/panel', function () {
-    return view('welcome');
-});
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
 
 Route::get('lista-categorias', function () {
     return view('listCategorias');
@@ -42,11 +34,21 @@ Route::get('detallesdelnegocio', function () {
     return view('detallesNegocio');
 });
 
-Route::get('detallesdelproducto', function () {
+Route::get('detalles-producto', function () {
     return view('detallesProducto');
 });
 
-/*Agregado */
+
+// RUTAS DE ACCESO AL PANEL DE ADMINISTRACIÓN
+
+Route::get('/panel', function () {
+    return view('welcome');
+});
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// RUTAS CON ACCESO RESTRINGIDO
+
 Route::group(['middleware' => ['auth']], function(){
     Route::resource('roles', RolController::class);
     Route::resource('usuarios', UsuarioController::class);
@@ -54,7 +56,5 @@ Route::group(['middleware' => ['auth']], function(){
     // Route::resource('productos', ProductoController::class);
 });
 
-
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Auth::routes();

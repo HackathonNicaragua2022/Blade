@@ -191,6 +191,7 @@
         </div>
     </footer>
     <!-- FIN FOOTER -->
+
     <!-- BOOSTRAP -->
     <script src="bootstrap-5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- MODO OSCURO -->
@@ -198,6 +199,8 @@
     <!-- ADICIONALES -->
     <script src="js/libs.js"></script>
     <script src="js/main.js"></script>
+
+    reCaptcha
 
 </body>
 
