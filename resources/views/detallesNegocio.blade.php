@@ -3,7 +3,6 @@
 
 @section('content')
     <!--INICIO DE CONTENIDO PRINCIPAL-->
-
     <section class="detalles mt-5">
         <div class="container">
             <div class="row">
@@ -113,7 +112,6 @@
                             </div>
                         </div>
                         <!--FINAL DE INFORMACION DEL NEGOCIO-->
-                        
                         <!--INICIO DE VISTA DEL PRODUCTOS-->
                     </div>
                     <div class="card">
