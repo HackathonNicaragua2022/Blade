@@ -12,12 +12,18 @@
     <link rel="stylesheet" href="Iconos/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/estilos2.css">
+    <link
+        href="https://www.dafontfree.net/embed/aHVtYW5zdDUyMS1idC1ib2xkJmRhdGEvNDcvaC81NzYzMy9IdW1hbmlzdCA1MjEgQm9sZCBCVC50dGY"
+        rel="stylesheet" type="text/css" />
+    <link
+        href="https://www.dafontfree.net/embed/aHVtbnN0Nzc3LWJsay1idC1ibGFjay1pdGFsaWMmZGF0YS80Ni9oLzYzMTUxL0h1bWFuaXN0IDc3NyBCbGFjayBJdGFsaWMgQlQudHRm"
+        rel="stylesheet" type="text/css" />
+
 </head>
 
 <body onload="cargarModo();">
 
     <!--ÍCONOS-->
-
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="whatsapp" viewBox="0 0 16 16">
             <path
@@ -57,7 +63,6 @@
             <path
                 d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
         </symbol>
-
         <symbol id="telefono" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
                 d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
@@ -67,25 +72,17 @@
                 d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
         </symbol>
     </svg>
-
     <!--FIN ÍCONOS-->
-
-
     <!--MODO OSCURO-->
-
     <input id="toggle" type="checkbox" onclick="cambiarModo();">
-
     <script type="text/javascript">
         function cambiarModo() {
             var cuerpoweb = document.body;
             cuerpoweb.classList.toggle("dark-theme");
         }
     </script>
-
     <!--FIN MODO OSCURO-->
-
-
-    <!-- Loader-->
+    <!-- LOADER-->
     <div id="page-preloader">
         <div class="preloader-1">
             <div class="spinner-border text-primary" role="status">
@@ -93,22 +90,14 @@
             </div>
         </div>
     </div>
-    <!-- Loader end-->
-
-
+    <!-- FIN LOADER-->
     <!-- BARRA DE NAVEGACIÓN -->
     <header id="header" class="header fixed-top header-scrolled">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <nav class="navbar navbar-expand-lg py-3 px-4" aria-label="Eleventh navbar example">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Multi Emprende</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarsExample09">
+                    <img src="img/inicio/logotipo.png" alt="No se pudo cargar la imagen" class="logo1 img-fluid">
+                    <div class="collapse navbar-collapse mx-3" id="navbarsExample09">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Inicio</a>
@@ -122,8 +111,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contacto</a>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Ingresar
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Iniciar sección</a></li>
+                                    <li><a class="dropdown-item" href="#">Solicitar registro</a></li>
+                                </ul>
+                            </li>
                         </ul>
-
                         <form role="search">
                             <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
                         </form>
@@ -133,17 +131,14 @@
         </div>
     </header>
     <!-- FIN DE NAVEGACIÓN -->
-
     <!-- FIN DE NAVEGACIÓN -->
     <main>
-        <div class="container">
+        <div class="container mt-2">
             @yield('content')
         </div>
     </main>
-    
     <!-- INICIO DE FOOTER -->
     <footer>
-
         <div class="footer rounded-3">
             <div class="container">
                 <div class="row gy-4 d-flex justify-content-between">
@@ -156,22 +151,19 @@
                             </svg>
                             <span class="name">Multi Emprende</span>
                         </a>
-
                         <p class="mt-4">En Multi Emprende estamos comprometidos en brindarte la seguridad que
                             necesitas.
                             Mantente al tanto de nuestras actualizaciones para conocer los beneficios que traemos para
                             vos.
                         </p>
-                        <p class="text-muted">¡Tu seguridad con nuestros!</p>
+                        <p class="text-muted">¡Tu seguridad con nosotros!</p>
                     </div>
-
                     <div class="col-lg-4 col-6">
                         <h4>Sociales</h4>
                         <p>Seguinos a través de nuestras redes sociales y mantenete al tanto de las novedades.</p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter">
                                 <i class="bi bi-twitter"></i>
-
                             </a>
                             <a href="#" class="facebook">
                                 <i class="bi bi-facebook"></i>
@@ -181,7 +173,6 @@
                             </a>
                         </div>
                     </div>
-
                     <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                         <h4>Contactanos</h4>
                         <p>
@@ -193,7 +184,6 @@
                 </div>
             </div>
         </div>
-
         <div class="container text-center">
             <div class="copyright">
                 &copy; Copyright <strong><span>Multi Emprende</span></strong>. Todos los derechos reservados
@@ -201,14 +191,10 @@
         </div>
     </footer>
     <!-- FIN FOOTER -->
-
-
     <!-- BOOSTRAP -->
     <script src="bootstrap-5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-
     <!-- MODO OSCURO -->
     <script src="js/oscuro.js"></script>
-
     <!-- ADICIONALES -->
     <script src="js/libs.js"></script>
     <script src="js/main.js"></script>
