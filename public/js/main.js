@@ -74,7 +74,7 @@ jQuery(document).ready(function ($) {
     });
     const gallerySmall = new Swiper('.js-gallery-small .swiper', {
         slidesPerView: 1,
-        spaceBetween: 20,
+        spaceBetween: 4,
         loop: true,
         watchOverflow: true,
         observeParents: true,
@@ -101,7 +101,7 @@ jQuery(document).ready(function ($) {
                 spaceBetween: 20
             },
             1400: {
-                slidesPerView: 6,
+                slidesPerView: 5,
                 spaceBetween: 20
             }
         }

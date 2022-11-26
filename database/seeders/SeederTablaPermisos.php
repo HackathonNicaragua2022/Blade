@@ -25,6 +25,13 @@ class SeederTablaPermisos extends Seeder
             'crear-rol',
             'editar-rol',
             'borrar-rol',
+            
+            //Tabla usuarios
+
+            'ver-usuario',
+            'crear-usuario',
+            'editar-usuario',
+            'borrar-usuario',
 
             //Tabla categorias
 
@@ -32,6 +39,26 @@ class SeederTablaPermisos extends Seeder
             'crear-categoria',
             'editar-categoria',
             'borrar-categoria',
+
+            //Tabla negocios
+            'ver-negocio',
+            'crear-negocio',
+            'editar-negocio',
+            'borrar-negocio',
+
+            //Tabla redes sociales
+            'ver-redes',
+            'crear-redes',
+            'editar-redes',
+            'borrar-redes',
+
+            //Tabla productos
+
+            'ver-producto',
+            'crear-producto',
+            'editar-producto',
+            'borrar-producto',
+
         ];
 
         foreach ($permisos as $permiso){
