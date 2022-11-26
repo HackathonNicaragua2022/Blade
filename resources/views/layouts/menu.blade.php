@@ -18,6 +18,9 @@
         <a href="/" class="nav-link a align-middle px-0">
             <i class="bi bi-house"></i> <span class="ms-1 d-none d-sm-inline">Inicio</span>
         </a>
+        <a class="nav-link" href="/roles">
+            <i class="bi bi-lisk-task"></i><span>Roles</span>
+        </a>
         <a href="/usuarios" class="nav-link a align-middle px-0">
             <i class="bi bi-person-fill"></i> <span class="ms-1 d-none d-sm-inline">Usuarios</span>
         </a>
