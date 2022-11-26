@@ -117,7 +117,7 @@
                                     Ingresar
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Iniciar sección</a></li>
+                                    <li><a class="dropdown-item" href="#">Inicio sesión</a></li>
                                     <li><a class="dropdown-item" href="#">Solicitar registro</a></li>
                                 </ul>
                             </li>
